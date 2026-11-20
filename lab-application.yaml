@@ -1,4 +1,4 @@
-AWSTemplateFormatVersion: 2010-09-10 
+AWSTemplateFormatVersion: 2010-09-09
 Description: >-
   Application Template: Demonstrates how to reference resources from a different stack.
   This template provisions an EC2 instance in a VPC Subnet provisioned in a different stack.
@@ -21,7 +21,7 @@ Parameters:
     MinLength: 1
     MaxLength: 255
     AllowedPattern: '^[a-zA-Z][-a-zA-Z0-9]*$'
-    Default: hampus-lab-network
+    Default: lab-network
 
 ######################
 # Resources section
