@@ -3,7 +3,7 @@ Description: >-
   Application Template: Demonstrates how to reference resources from a different stack.
   This template provisions an EC2 instance in a VPC Subnet provisioned in a different stack.
 
-# This template creates:
+# This template2 creates:
 #   Amazon EC2 instance
 #   Security Group
 
@@ -21,7 +21,7 @@ Parameters:
     MinLength: 1
     MaxLength: 255
     AllowedPattern: '^[a-zA-Z][-a-zA-Z0-9]*$'
-    Default: lab-network
+    Default: hampus-lab-network
 
 ######################
 # Resources section
